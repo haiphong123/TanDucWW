@@ -1,0 +1,185 @@
+@import url ('https://fonts.googleapis.com/css2? family = Roboto: wght @ 700 & display = swap');
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#wrapper{
+	width: 100%
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+}
+.col-1{
+	width: 8.333%;
+}
+.col-2{
+	width: 16.67%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.65%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.3%
+}
+.col-8{
+	width: 66.64%;
+}
+.col-9{
+	width: 74.97%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.63%;
+}
+.col-12{
+	width: 100%;
+}
+header{
+	padding: 32px;
+}
+.logo a{
+	font-size: 32px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.logo:hover{
+	opacity: 0.2;
+}
+.menu{
+/*	background: red;*/
+	height: 100%;
+}
+.menu svg{
+	padding: 10px;
+}
+.menu ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+.menu ul li a{
+	color: black;
+	text-decoration: none;
+	margin: 20px;
+}
+.menu ul li a:hover{
+	opacity: 0.2;	
+}
+.main{
+  position: absolute;
+	top: 30%;
+}
+.main h1{
+	color: #1756A2
+}
+.main img{
+	width: 500px;
+	height: 500px;
+	background: cover;
+	
+	position: absolute;
+	left: 600px;
+	top: -60px;
+}
+.thongtin{
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+}
+.thongtin{
+	background-color:#6092CD ;
+	top: 500px;
+}
+.thongtin h1{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px
+}
+.thongtin h2{
+	font-size: 20px;
+	margin: 10px;
+	justify-content: center;
+}
+.hinhtt img {
+	width: 350px;
+	height: 250px;
+	border-radius: 100%;
+	position: absolute;
+	border-right-style: groove;
+	top: 110px
+}
+.kinang {
+	width: 1200px;
+	height:400px;
+	background color: #7F6E6E;
+	position: absolute;
+}
+.kynang{
+	top: 850px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 100px;
+	margin: 20px;
+}
+.simen{
+	width: 1200px;
+	height: 600px;
+	background: #46B056;
+	position: relative;
+	overflow: hidden;
+	top: 900px
+}
+.text3 h1{
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+.simen img{
+	width: 800px;
+	height: 450px;
+	left: 230px;
+	top: 100px
+}
+.footer{
+	width: 1200px;
+	height: 170px;
+	background: #000000;
+	position: relative
+}
+.footer{
+	position: absolute;
+	top: 1970px;
+}
+.text4 h1{
+	color: white;
+	text-align: center;
+}
+.text4 h3{
+	color: white;
+	text-align: center;
+}
